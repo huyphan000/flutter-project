@@ -16,7 +16,7 @@ class _fgpState extends State<fgp> {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => Newpassword(),
+            builder: (context) => NewPassword(),
           ),
         );
       },

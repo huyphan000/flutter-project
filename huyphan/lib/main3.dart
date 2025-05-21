@@ -52,16 +52,16 @@ class _SignupPage extends State<SignupPage> {
                   onPressed: () {
                     print('Đăng ký thành công');
                   },
-                  child: Text(
-                    'Đăng ký',
-                    style: TextStyle(fontSize: 18, color: color1),
-                  ),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.white,
                     padding: EdgeInsets.symmetric(horizontal: 40, vertical: 16),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30),
                     ),
+                  ),
+                  child: Text(
+                    'Đăng ký',
+                    style: TextStyle(fontSize: 18, color: color1),
                   ),
                 ),
               ],

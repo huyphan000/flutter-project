@@ -43,7 +43,7 @@ class _sizeboxState extends State<sizebox> {
         ),
         SizedBox(height: 5.0),
         Text(
-          email,
+          email!,
           textAlign: TextAlign.right,
           style: TextStyle(
             color: Colors.red,
@@ -78,7 +78,7 @@ class _sizeboxState extends State<sizebox> {
           ),
         ),
         Text(
-          password,
+          password!,
           textAlign: TextAlign.right,
           style: TextStyle(
             color: Colors.red,
